@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Scroller Bar</title>
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
+<style>
+* {
+	background: #fff;
+	font-family: "Poppins", sans-serif;
+}
+#content {
+	max-width: 600px;
+	margin: 10px auto;
+	padding: 10px;
+}
+p {
+	text-align: justify;
+}
+h1, h2 {
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<div id="content">
+	<h1>Scroll me</h1>
+	<h2>Default Scroller</h2>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ligula nec massa hendrerit luctus. Duis cursus consequat justo nec pellentesque. Nulla urna ligula, fringilla quis lacinia nec, tristique quis leo. Ut tincidunt nisl lorem, ac ornare justo accumsan quis. Nunc ut dapibus erat. Aenean dapibus lectus id sem pulvinar egestas. Sed lacinia venenatis vehicula.
+	</p>
+	<p>
+		In hac habitasse platea dictumst. Nunc suscipit ac ligula id laoreet. Mauris vel ante sit amet nulla tincidunt faucibus. Pellentesque imperdiet, est nec tincidunt porta, erat sem varius diam, ut porta orci ipsum quis diam. Suspendisse tincidunt felis eu erat mollis, sed hendrerit ligula imperdiet. Donec volutpat hendrerit nisl sit amet semper. Praesent vitae ex congue, sodales ipsum vitae, rutrum est.
+	</p>
+	<p>
+		Fusce vitae augue vulputate, ultricies leo in, molestie dolor. Proin eu nibh sit amet arcu hendrerit aliquam. Maecenas a pharetra odio. Quisque dui est, iaculis at ante sed, aliquet volutpat velit. Proin egestas mollis turpis, a accumsan ante efficitur sed. Nulla facilisi. Sed sem nisl, lobortis a risus id, blandit suscipit eros. Sed fringilla auctor ante, a semper sapien scelerisque eget.
+	</p>
+	<p>
+		Vivamus mollis euismod eros, in varius purus pharetra a. Maecenas id laoreet enim. Curabitur viverra nibh malesuada accumsan porta. Cras vel arcu dolor. Nam sapien nibh, laoreet quis arcu eget, dignissim laoreet odio. Duis ut urna quis dui tempus fringilla. Fusce faucibus nulla et mauris mollis, nec bibendum nunc ultrices. Proin vel feugiat risus, eget cursus felis. Praesent congue facilisis tellus, quis vehicula sem ultricies non. Nunc vitae metus ante. Sed lectus leo, ultrices ut lorem vel, malesuada bibendum ipsum. Suspendisse pharetra a tellus sit amet egestas. Duis blandit elit urna, nec pellentesque massa blandit id. Maecenas mattis consequat metus id sollicitudin. Cras justo elit, mattis ac iaculis vitae, porta eu massa.
+	</p>
+	<p>
+		Donec pellentesque ante ut nulla elementum, ac aliquam tortor accumsan. Mauris a libero dignissim, molestie enim non, feugiat purus. Etiam dignissim ut turpis sed pellentesque. Praesent tempus mi risus. Vivamus sed tellus et nulla mattis tempus. In commodo mauris malesuada dui euismod, sit amet euismod diam interdum. In hac habitasse platea dictumst. Vestibulum finibus odio id quam cursus pretium. Praesent sodales ac leo et interdum. Nunc commodo enim eu magna pellentesque, vitae aliquet nisi condimentum. Cras varius metus id nisi ultrices ultricies. Morbi congue justo in elit tempor, sit amet bibendum tellus euismod. Cras porttitor egestas rutrum. Suspendisse purus risus, mollis id lacus pretium, fringilla fermentum ante. Morbi urna nisl, imperdiet eu lacinia id, dictum id quam.
+	</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scroller.js"></script>
+<script>
+$(document).ready(function(){
+	$('body').scroller();
+});
+</script>
+</body>
+</html>
