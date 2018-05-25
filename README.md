@@ -67,7 +67,8 @@ start : 'right'
 Version 1.0 (2018-05-25)
 
 ## Credits
- 
+
+Landing - http://scrollerbar.barnaproject.com/
 Lead Developer - Barnaproject http://barnaproject.com
 
 ## License
